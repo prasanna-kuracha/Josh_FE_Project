@@ -1,0 +1,163 @@
+/* ===== Footer Section ===== */
+.footer-section{
+  width: 100%;
+  height: 580px;
+  margin-top:40px;
+}
+.logo-section{
+  width: 970px;
+  height: 144px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left:270px;
+  gap:60px;
+}
+
+.logo-item {
+ text-align: center;
+ margin-right:90px;
+}
+
+.logo-item img {
+  width: 140px; 
+  height: 144px;
+  display: block;
+
+}
+
+.toogle-section{
+  width: 1520px;
+  height: 400px;
+  padding-top: 45px;
+  padding-right: 98px;
+  padding-left: 98px;
+  gap: 50px;
+
+}
+.matter{
+  width: 1344px;
+  height: 200px;
+  justify-content: space-between;
+  margin-top:45px;
+  display: flex;
+}
+.rating-box p{
+  font-size:12px;
+  font-weight: 400px;
+  line-height: 18px;
+  letter-spacing:0%;
+  color:#7d7d7d;
+
+}
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 180px;
+}
+
+.rating-box {
+  display: flex;
+  flex-direction: column;  
+}
+
+.img1 {
+  width: 91px;
+  height: 40px;
+  border-radius: 4px;
+
+}
+.img3 {
+  width: 76px;
+  height: 40px;
+  border-radius: 4px;
+
+}
+
+.img2{
+  width: 73px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.footer-sections {
+  display: flex;
+  gap: 200px;
+  
+}
+
+.section h3 {
+  font-size:20px;
+  font-weight: 700px;
+  line-height: 30px;
+  letter-spacing:0%;
+  color: black;
+
+}
+
+.section ul {
+  list-style: none;
+  padding-top: 15px;
+  margin: 0;
+
+}
+
+.section ul li {
+  margin: 6px 0;
+  font-size: 14px;
+  cursor: pointer;
+  font-size:16px;
+  font-weight: 400px;
+  line-height: 24px;
+  letter-spacing:0%;
+  color: black;
+}
+
+.social-links li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.img-pic1 {
+  width: 100px;
+  height: 25px;
+}
+.img-pic2 {
+  width: 125px;
+  height: 35px;
+}
+
+.img-pic3  {
+  width: 107px;
+  height: 35px;
+}
+
+.final-foot{
+  width: 900px;
+  height: 252px;
+  margin-left: 500px;
+  margin-top: -210px;
+}
+
+.footer {
+  width:500px;
+  height:50px;
+  text-align: center;
+  margin-left:500px;
+  font-size: 16px;
+  color: #7d7d7d;
+}
+
+.footer p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.copyright-symbol {
+  font-size: 24px; /* Bigger size for the symbol */
+  color: #555;
+}

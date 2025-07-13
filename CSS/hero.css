@@ -1,0 +1,140 @@
+/* ===== Hero Section ===== */
+.Hero{
+  width: 1520px;
+  height: 630px;
+  margin-top:2px;
+  display:flex;
+  background-image: url('../Images/Background-Image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.Hero-content{
+  margin-top: 125px;
+  margin-left:97.27px;
+  width: 722px;
+  height: 406px;
+  position:relative;
+}
+.Hero-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #1a1a1a;
+  margin-bottom: 70px;
+}
+
+.Hero-content .highlight {
+  color: #ffb400;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #7d7d7d;
+  margin-bottom: 70px;
+}
+
+.hire-btn {
+  background-color: #ffb400;
+  color: #000;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hire-btn .arrow {
+  margin-left: 10px;
+}
+
+.hire-btn:hover {
+  background-color: #e0a000;
+}
+
+.image-pic img {
+  margin-top: 80px;
+  width: 809px;
+  height: 550px;
+  opacity: 1;
+}
+.circle1{
+  position: absolute;
+  width: 22.83px;
+  height: 21.58px;
+  top: 192.47px;
+  left: 57.39px;
+  border: 3px solid #FFB400CC;
+  border-radius: 50%;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+.rec1 {
+  position: absolute;
+  width: 22.6px;
+  height: 21.83px;
+  top: 571.23px;
+  left: 533.75px;
+  border: 3px solid #0047FFCC; /* Semi-transparent blue */
+  opacity: 1;
+  transform: rotate(24.8deg);
+}
+.circle2 {
+  position: absolute;
+  width: 22.83px;
+  height: 21.58px;
+  top: 721.29px;
+  left: 125.89px;
+  border: 3px solid #05FF00CC; /* Semi-transparent green */
+  border-radius: 50%;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+.rec2 {
+  position: absolute;
+  width: 22.60px;
+  height: 21.83px;
+  top: 251.97px;
+  left: 1365px;
+  border: 3px solid #FFB400CC; /* Semi-transparent yellow */
+  transform: rotate(24.8deg);
+  opacity: 1;
+}
+.triangle1 {
+  position: absolute;
+  top: 728.04px;
+  left: 1395.64px;
+  width: 0;
+  height: 0;
+  border-left: 13.42px solid transparent;
+  border-right: 13.42px solid transparent;
+  border-bottom: 22.58px solid #FF2E00CC; /* Semi-transparent red-orange */
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.triangle-border-inner {
+  position: absolute;
+  top: 2px;
+  left: -10px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 18px solid lightgrey; /* Match this with your page background */
+  background: transparent;
+}
+.circle4{
+  position: absolute;
+  width: 22.83px;
+  height: 21.58px;
+  top: 222.15px;
+  left: 822.39px;
+  border: 3px solid #05FF00CC; /* Semi-transparent green */
+  border-radius: 50%;
+  opacity: 1;
+  transform: rotate(0deg);
+}

@@ -1,0 +1,58 @@
+/* ===== Navbar Container ===== */
+.navbar {
+  display: flex;
+  width: 1520px;
+  height: 151px;
+  justify-content: space-between;
+  opacity: 1;
+  padding-top: 38px;
+  padding-right: 96px;
+  padding-bottom: 38px;
+  padding-left: 96px;
+  background: #ffffff;
+  box-shadow: 4px 0px 10px 0px #2F7AF91A;
+}
+
+/* ===== Logo Styling ===== */
+.logo img {
+  width: 158px;
+  height: 75px;
+  opacity: 1;
+  object-fit:contain;
+}
+
+.right-sections{
+  width: 604px;
+  height: 37px;
+  opacity: 1;
+  gap: 22px;
+  display: flex;
+  padding-top:12px;
+}
+
+.section {
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.section-box {
+  padding: 10px 14px;
+  border-radius: 7px;
+}
+
+.section-content a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  
+}
+
+/* Optional: active or hover state (example for Home) */
+.section-box.active {
+  background-color: #FFB400;
+}
+
+
+
